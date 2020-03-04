@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="../CSS/connexion.css">
+    <link rel="icon" type="image/png" href="../img/logo.png" />
+    <title>Connexion</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="accueil_or_connection.html"><img src="../img/logo.png" alt="logo myIMMO"></a>
+        </div>
+        <div id="content-header-right">
+            <ul class="nav_categorie">
+                <li><a href="accueil.html">Acceuil</a></li>
+                <li><a href="tuto.html">Conseil</a></li>
+                <li><input type="search" name="recherche" id="recherche" placeholder="...Search"></li>
+                <li><a href="inscription.html">S'inscrire</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+    </section>
+
+
+    <section id="inscription">
+        <h2 id="title_Container">Connexion</h2>
+        <div class="container">
+            <form id="sub-form">
+                <div class="row">
+                    <div class="col-md">
+                        <div class="form-group">
+                            <label for="pseudo">
+                                <h3>Pseudo</h3>
+                            </label>
+                            <input type="text" name="pseudo" id="pseudo" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="form-group">
+                            <label for="pwd">
+                                <h3>Mot de passe</h3>
+                            </label>
+                            <input type="password" name="pwd" id="pwd" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <button id="connexionForm" type="submit" class="btn btn-success btn-lg">Connexion</button>
+            </form>
+            <p id="msgErr" style="display: none">Veuillez correctement remplir le formulaire</p>
+        </div>
+    </section>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- jQuery -->
+    <script src="../JS/burger.js"></script>
+    <script src="../JS/connexion.js"></script>
+</body>
+
+</html>

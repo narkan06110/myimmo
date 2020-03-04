@@ -1,0 +1,482 @@
+@font-face {
+    font-family: "Geometria";
+    src: url("../css/fonts/FontsFree-Net-Geometria-Light.ttf");
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Geometria";
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.952);
+}
+
+p {
+    font-size: 12px;
+    font-family: "Geometria";
+    color: rgba(255, 255, 255, 0.952);
+}
+
+a {
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "Geometria";
+    color: rgba(255, 255, 255, 0.952);
+}
+
+li {
+    font-family: "Geometria";
+}
+
+header {
+
+    display: flex;
+    width: 100%;
+    margin: auto;
+    background-color: #0772d8;
+}
+
+#logo {
+    width: 15%;
+}
+
+#logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav_categorie {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nav_categorie a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+.burger {
+    display: none;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav_categorie li {
+    list-style: none;
+    margin: auto;
+}
+
+#content-header-right {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: auto 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#recherche {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    border: none #0772d8;
+    padding: 6px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: #0772d8;
+
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.952);
+    font-style: italic;
+
+}
+
+.content-header-right-nav {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 45%;
+}
+
+.content-header-right-nav a {
+    text-align: center;
+    margin: auto;
+    padding-left: 20%;
+}
+
+#content-center {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    display: flex;
+}
+
+.content-left {
+    width: 70%;
+    margin-top: 10%;
+    background-color: #0772d8;
+}
+
+.content-left h2 {
+    padding-top: 2%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.content-offre {
+    width: 100%;
+    padding: 5%;
+    height: auto;
+    display: flex;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+
+}
+
+.content-offre h2 {
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+
+}
+
+.description-offre ul {
+    color: rgba(255, 255, 255, 0.952);
+}
+
+.description-offre  {
+    
+    margin: auto;
+}
+
+.content-offre a {
+    width: 45%;
+}
+
+.content-offre img {
+    width: 100%;
+    height: 100%;
+}
+
+.price-offre {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto;
+}
+
+.price-offre h3 {
+    text-align: center;
+}
+
+.content-right {
+    width: 25%;
+    margin-left: auto;
+    height: auto;
+
+}
+
+
+.logo-add-content {
+    padding-top: 10%;
+    width: 60%;
+    margin: auto;
+
+}
+
+.add-content img {
+    width: 82%;
+}
+
+.add-content-mobile {
+    display: none;
+}
+
+.add-content {
+    width: 100%;
+    margin-top: 60%;
+    height: 30%;
+    background-color: #0772d8;
+    text-align: center;
+    box-sizing: border-box;
+    width: 70%;
+    margin-top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/annonce.jpg");
+    background-size: 100% 100%;
+    border-radius: 10px;
+    border-color: #CCCCCC;
+}
+
+.logo-add-content {
+    height: 100%;
+}
+
+.logo-add-content img {
+    width: 80%;
+    height: 70%;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo-add-content-area p {
+    box-sizing: border-box;
+    margin-top: 20%;
+    padding: 2px;
+    background-color: #0772d8;
+    border: 1px solid #CCCCCC;
+    width: 95%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-radius: 10px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.952);
+    text-align: center;
+}
+
+footer {
+    margin-top: 20%;
+    width: 100%;
+    height: auto;
+    background-color: #0772d8;
+}
+
+.footer-top-content {
+    display: flex;
+}
+
+.footer-top-element {
+    width: 33%;
+    text-align: center;
+}
+
+.footer-top-element :nth-child(1),
+.footer-top-element :nth-child(2) {
+    border-right: solid black 1px;
+}
+
+.footer-top-element :nth-child(3) {
+    border-right: none;
+}
+
+.footer-bottom-content {
+    text-align: center;
+    width: 30%;
+    margin: auto;
+
+}
+
+.footer-bottom-content p {
+    margin-bottom: 0;
+}
+
+.footer-bottom-content :nth-child(1) {
+    border-bottom: solid black 1px;
+}
+
+.footer-bottom-content :nth-child(3) {
+    border-bottom: none;
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@media screen and (max-width:1024px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    p {
+        font-size: 10px;
+        font-family: "Geometria";
+        color: rgba(255, 255, 255, 0.952);
+    }
+
+    a {
+        font-size: 10px;
+        text-decoration: none;
+        font-family: "Geometria";
+        color: rgba(255, 255, 255, 0.952);
+    }
+
+    li {
+        font-family: "Geometria";
+        font-size: 12px;
+    }
+
+    .price-offre h3 {
+        font-size: 12px;
+    }
+
+    .second_title {
+        margin-bottom: 0px;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .content-center-mobile {
+        display: block;
+    }
+
+    .content-left {
+        width: 100%;
+    }
+
+
+    .logo-add-mobile-content {
+        padding-top: 10%;
+        width: 60%;
+        margin: auto;
+
+    }
+
+    .add-content-mobile img {
+        width: 82%;
+    }
+
+
+    .add-content-mobile {
+        box-sizing: border-box;
+        width: 35%;
+        margin-left: auto;
+        margin-top: 20%;
+        margin-right: auto;
+        background-image: url("../img/annonce.jpg");
+        background-size: 100% 100%;
+        border-radius: 10px;
+        text-align: center;
+        border-color: #CCCCCC;
+        display: block;
+    }
+
+    .description-offre ul {
+        padding-left: 15%;
+    }
+    .logo-add-mobile-content {
+        height: 100%;
+    }
+
+    .logo-add-mobile-content img {
+        width: 80%;
+        height: 70%;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .logo-add-mobile-content-area p {
+        box-sizing: border-box;
+        margin-top: 20%;
+        padding: 2px;
+        background-color: #0772d8;
+        border: 1px solid #CCCCCC;
+        width: 95%;
+        height: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        border-radius: 10px;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.952);
+        text-align: center;
+    }
+
+    .price-offre {
+        margin: auto;
+        padding: 2%;
+    }
+
+    .content-offre a {
+        width: 54%;
+    }
+    .nav_categorie {
+        position: absolute;
+        right: 0;
+        height: 92vh;
+        top: 8vh;
+        background-color: #0772d8;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+
+    }
+
+    .nav_categorie li {
+        opacity: 0;
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-active {
+        transform: translateX(0%);
+    }
+
+    .content-right {
+        display: none;
+    }
+
+
+
+}
